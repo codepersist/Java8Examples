@@ -1,4 +1,4 @@
-package com.rahul.lambdas;
+package com.java8.lambdas;
 
 public class LambdaWordCount {
 

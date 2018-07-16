@@ -1,10 +1,10 @@
-package com.rahul.interfaces;
+package com.java8.interfaces;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import com.rahul.pojo.Employee;
+import com.java8.pojo.Employee;
 
 public class ForEachUsage {
 

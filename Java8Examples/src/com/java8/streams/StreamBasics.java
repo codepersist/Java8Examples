@@ -1,4 +1,4 @@
-package com.rahul.streams;
+package com.java8.streams;
 
 import java.util.Arrays;
 import java.util.List;
