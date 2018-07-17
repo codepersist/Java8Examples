@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 .settings
-bin\com\rahul
+bin\com\java8
 
 # Log file
 *.log
