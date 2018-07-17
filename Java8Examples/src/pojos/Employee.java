@@ -1,4 +1,4 @@
-package com.java8.pojo;
+package pojos;
 
 public class Employee {
 	public int id;

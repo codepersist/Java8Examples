@@ -1,4 +1,4 @@
-package com.java8.interfaces;
+package interfaces;
 
 public class InheritanceExample implements Doctor, Surgeon{
 

@@ -1,10 +1,10 @@
-package com.java8.interfaces;
+package interfaces;
 
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import com.java8.pojo.Employee;
+import pojos.Employee;
 
 public class ForEachUsage {
 
