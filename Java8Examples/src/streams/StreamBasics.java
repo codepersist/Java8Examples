@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
+//Streams are used for bulk data operations on Collections or any group of values
+/* Stream Processing 2 steps:
+ *  1) Configuration
+ *  2) Processing
+ */
 public class StreamBasics {
 
 		public static void main(String[] args) {
@@ -27,5 +32,6 @@ public class StreamBasics {
 			
 			List<String> filteredList = stringList.stream().filter(x -> x.isEmpty())
 							   .collect(Collectors.toList());
+			System.out.println("Filtered List:- " + filteredList);
 		}
 }

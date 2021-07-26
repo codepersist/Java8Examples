@@ -3,6 +3,7 @@ package interfaces;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
 
 import pojos.Employee;
 
@@ -20,6 +21,10 @@ public class ForEachUsage {
 		
 		/*Usage of forEach on the list*/
 		employeeList.forEach(s -> System.out.println(s.toString()));
+		
+		/*Another way of iteration using Consumer interface */
+		Consumer<Employee> consumer = e -> System.out.println("Iterated Value " + e);
+		employeeList.forEach(consumer);
 		
 		/* Using Collections API sort method to compare employee objects*/
 		Collections.sort(employeeList, (e1,e2) -> e1.getName().compareTo(e2.getName()));
